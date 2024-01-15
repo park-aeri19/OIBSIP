@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #F0F3F4;
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 35px;
+    /*background-color: rgba(255, 182, 193, 0.8); /* Light pink background color */
+    /* background-color: #C39BD3; */
+    background-color: #7FB3D5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+}
+
+.converter-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#result {
+    background-color: #fff;
+    color: #333;
+}
